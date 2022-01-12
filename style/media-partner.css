@@ -1,0 +1,25 @@
+
+.section.media-partner {
+    padding-top: 180px;
+}
+
+.media-partner .display-table-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+
+.media-partner .display-table-cell:not(:last-child) {
+    margin-right: 45px;
+}
+
+.media-partner img {
+    width: 150px;
+    height: 70px;
+}
+
+.media-partner h1 {
+    margin-bottom: 30px;
+}

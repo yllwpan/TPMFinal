@@ -16,8 +16,8 @@ li, a {
 .section {
     height: 100vh;
     width: 100vw;
-    border-style: solid;
-    border-bottom: 3px;
+    /* border-style: solid;
+    border-bottom: 3px; */
 }
 
 /** Variable */
@@ -27,6 +27,10 @@ li, a {
     --color-white: #ffffff; 
     --color-black: #000000;
 }
+
+.display-table { display: table; }
+.display-table-row { display: table-row; }
+.display-table-cell { display: table-cell; }
 
 .hidden {
     display: none;
@@ -56,10 +60,34 @@ li, a {
 
 .iconify { color: white; }
 
+.navbar {
+
+    padding-top: 30px;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
 .card-container {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btn {
+    background: black;
+    color: white;
+    border: none;
+    border-radius: 7px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.line {
+    position: absolute;
+    content: '';
+    background: black;
 }
 
 h1 {
@@ -69,6 +97,8 @@ h1 {
     text-transform: uppercase;
     text-align: center;
 }
+
+h4 { font-family: var(--font-header); }
 
 h5 {
     font-family: var(--font-header);

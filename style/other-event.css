@@ -1,0 +1,48 @@
+
+.section.other-event {
+    padding: 85px 40px 83px 40px;
+}
+
+.other-event .display-table-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.display-table-row.above-content {
+    margin-bottom: 70px;
+}
+
+.display-table-cell.about {
+    width: 300px;
+}
+
+.other-event .picture {
+    margin-left: 60px;
+}
+
+.other-event .picture img {
+    width: 300px;
+    height: 200px;
+}
+
+.lower-content .display-table-cell img {
+    width: 150px;
+    height: 200px;
+    border-radius: 0px !important;
+}
+
+.lower-content .display-table-cell img:not(:last-child) {
+    margin-right: 60px;
+}
+
+.other-event img {
+    width: 100px;
+}
+
+.other-event h1, 
+.other-event h4, 
+.other-event p {
+    text-align: left !important;
+}
