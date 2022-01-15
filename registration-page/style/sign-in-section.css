@@ -5,6 +5,33 @@ body{
     background-repeat: no-repeat;
 }
 
+.bgatas img{
+    height: 500px;
+    width: 600px;
+    animation: updown 10s ease infinite;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+/* animasi */
+
+@keyframes updown {
+    0% {
+      transform: translateY(-0%);
+    }
+
+    50% {
+      transform: translateY(50%);
+    }
+
+    100% {
+      transform: translateY(-0%);
+    }
+  } 
+
 .sign-in-section .iconify { color: black; }
 
 .sign-in-section .line {
