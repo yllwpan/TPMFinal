@@ -6,15 +6,12 @@ body{
 }
 
 .bgatas img{
-    height: 500px;
-    width: 600px;
     animation: updown 10s ease infinite;
     position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: -1;
+    z-index: -10;
+    width: 30%;
+    top: 0; left: 0;
 }
-
 
 /* animasi */
 
