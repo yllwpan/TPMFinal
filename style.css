@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fontlibrary.org//face/metropolis');
 
-/* @font-face {
+@font-face {
     font-family: "monument_extendedultraboldZ";
     src: url('Fonts/Monument/monumentextended-ultrabold-webfont.woff2') format('woff2'),
          url('Fonts/Monument/monumentextended-ultrabold-webfont.woff') format('woff');
@@ -15,7 +15,7 @@
          url('Fonts/Monument/monumentextended-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
+}
 
 * {
     margin: 0;
