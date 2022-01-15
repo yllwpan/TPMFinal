@@ -3,6 +3,10 @@
     padding-right: 100px;
 }
 
+.footer a{
+    color: #000000;
+}
+
 .footer img {
     width: 100px;
     border: none;

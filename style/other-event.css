@@ -1,6 +1,10 @@
 
 .section.other-event {
-    padding: 85px 40px 83px 40px;
+    /* padding: 85px 40px 83px 40px; */
+}
+
+.other-event h1{
+    text-align: center;
 }
 
 .other-event .display-table-row {
@@ -15,11 +19,11 @@
 }
 
 .display-table-cell.about {
-    width: 300px;
+    width: 450px;
 }
 
-.other-event .picture {
-    margin-left: 60px;
+.display-table-cell.about p {
+    text-align: center;
 }
 
 .other-event .picture img {
@@ -33,7 +37,7 @@
     border-radius: 0px !important;
 }
 
-.lower-content .display-table-cell img:not(:last-child) {
+.lower-content .display-table-cell:nth-child(1) {
     margin-right: 60px;
 }
 
@@ -41,8 +45,6 @@
     width: 100px;
 }
 
-.other-event h1, 
-.other-event h4, 
-.other-event p {
+.other-event h4 {
     text-align: left !important;
 }
