@@ -1,4 +1,10 @@
 
+body{
+    background-image: url(bg-bwh.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .sign-in-section .iconify { color: black; }
 
 .sign-in-section .line {
@@ -54,6 +60,7 @@
 }
 
 .foo-container h4 {
+    font-family: "poppins";
     margin-top: 35px;
 }
 
